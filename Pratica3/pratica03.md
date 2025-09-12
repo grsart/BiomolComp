@@ -1,11 +1,15 @@
-**Prática 8 - Mapeamento de Transcritos no Genoma**  
+# **Prática 8 - Mapeamento de Transcritos no Genoma**  
   
-**Problema**  
+## **Problema**  
 Suponha que você recebeu uma sequência de transcritos (mRNA) como a sequência abaixo. Gostaríamos de saber:
 
-A que organismo esta sequência pertence;
-De que região do genoma esta sequência foi transcrita.
-   Se a sequência pertence a um organismo eucarioto, o gene completo contem íntrons? Se sim, quais foram as regiões de íntrons/exons no gene?
+**A que organismo esta sequência pertence**
+  
+**De que região do genoma esta sequência foi transcrita.**
+  
+**Se a sequência pertence a um organismo eucarioto, o gene completo contem íntrons?**  
+  
+**Se sim, quais foram as regiões de íntrons/exons no gene?**  
 
 
 GCCGGAGCGGATCGCGGAGTTTCACCGCGGACCTGTCAGAGATACAGAGGTTGTGGGGGCGGGAGACAGA  
@@ -55,9 +59,9 @@ CTCAGGAATTACATTTTCCAACAGACCAAAAAATGTTTTCATGTAGCAGCAATGCAGATTTGGTGAATAT
 TTAATATATATTTTAGTATGTATTTCACTTTATGACTGACAATTAAAAAATATTGTTTGGCCAAATAGTA  
 AACACCCTTTTGAAACCATGAAAAAAAAAAAAAAAAA
 
+### Obtenção de sequência
+
 Vá até o site do [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) e selecione a opção BlastN
-
-
 
 1.  Cole a sequência acima no campo de busca
 
@@ -85,7 +89,7 @@ Vá até o site do [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) e sele
 10.  Na sua tela deverá aparecer a seqüência no formato FASTA representando a região do genoma contendo seu gene.  
      Usaremos esta sequência na próxima etapa da análise.
 
-**Mapeamento com AUGUSTUS - Parte 1**
+### **Mapeamento com AUGUSTUS - Parte 1**
 1. Abra a pagina do [AUGUSTUS](https://bioinf.uni-greifswald.de/augustus/submission.php)
 2. No campo **Paste your sequence(s) here**, cole a sequência original fornecida no começo da prática  
 3. No campo **Organism**, selecione *Homo sapiens*
@@ -95,7 +99,7 @@ Vá até o site do [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) e sele
 7. Qual o tamanho da sequência dos exons?
 8. Quais os tipos dos exons gerados?
 
-**Mapeamento com AUGUSTUS - Parte 2**
+### **Mapeamento com AUGUSTUS - Parte 2**
 1. Abra a pagina do [AUGUSTUS](https://bioinf.uni-greifswald.de/augustus/submission.php)
 2. No campo **Paste your sequence(s) here**, cole a sequência obtida no passo 10 da seção anterior
 3. No campo **Organism**, selecione *Homo sapiens*
@@ -105,7 +109,7 @@ Vá até o site do [NCBI BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) e sele
 7. Qual o tamanho da sequência dos exons?
 8. Quais os tipos dos exons gerados?
 
-**Comparação das sequências geradas**
+### **Comparação das sequências geradas**
 1. Compare as sequências de nucleotídeos obtidas para cada passo, através do algoritmo [Blast2](https://blast.ncbi.nlm.nih.gov/Blast.cgi?BLAST_SPEC=blast2seq&LINK_LOC=align2seq&PAGE_TYPE=BlastSearch)
 2. As proteínas são as mesmas? O que aconteceu?
 3. Qual seria o caminho mais correto para realizar a anotação gênica? Parte 1 ou Parte 2?
