@@ -11,6 +11,7 @@ Suponha que você recebeu uma sequência de transcritos (mRNA) como a sequência
   
 **Se sim, quais foram as regiões de íntrons/exons no gene?**  
 
+### Sequência
 
 GCCGGAGCGGATCGCGGAGTTTCACCGCGGACCTGTCAGAGATACAGAGGTTGTGGGGGCGGGAGACAGA  
 AAGAGAGAGAGATCCAGAGACCGAGTCTTACGTTGACACGCAGAGAGAAAGACGCAGAGACAGACAAACA  
