@@ -14,8 +14,10 @@
 7. Volte na tela da proteína. Restrinja a sequência para o intervalo encontrado no passo anterior.  
     Para isso, use a opção **change region shown** no canto direito superior
   
-8. Copie a sequência fasta, anote com o nome **>TPA_poliprotein** e salve em um arquivo, nomeado ***filogenia2.fasta***
-**Q11- Qual a importância de se obter somente a região do domínio? Como isso impacta na construção da árvore?
+8. Copie a sequência fasta, anote com o nome **>TPA_poliprotein** e salve em um arquivo, nomeado ***filogenia2.fasta***  
+  
+**Q11- Qual a importância de se obter somente a região do domínio?   
+        Como isso impacta na construção da árvore?  
        Explique usando os conceitos de sinal e ruído filogenético**
   
 10. Repita o mesmo procedimento, de 4 a 8, para a sequência cujo código de acesso é **CAJ00242.1**
