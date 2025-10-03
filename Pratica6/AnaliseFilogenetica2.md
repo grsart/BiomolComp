@@ -15,19 +15,21 @@
     Para isso, use a opção **change region shown** no canto direito superior
   
 8. Copie a sequência fasta, anote com o nome **>TPA_poliprotein** e salve em um arquivo, nomeado ***filogenia2.fasta***
+**Q11- Qual a importância de se obter somente a região do domínio? Como isso impacta na construção da árvore?
+       Explique usando os conceitos de sinal e ruído filogenético**
   
-9. Repita o mesmo procedimento, de 4 a 8, para a sequência cujo código de acesso é **CAJ00242.1**
+10. Repita o mesmo procedimento, de 4 a 8, para a sequência cujo código de acesso é **CAJ00242.1**
   
-10. Neste caso, a sequência deve ser anotada com o nome **>TPA_Sm** e salva no mesmo arquivo ***filogenia2.fasta***
+11. Neste caso, a sequência deve ser anotada com o nome **>TPA_Sm** e salva no mesmo arquivo ***filogenia2.fasta***
   
-11. Copie o conteúdo do arquivo ***filogenia1.fasta***, utilizado na parte anterior, para dentro do arquivo ***filogenia2.fasta***
+12. Copie o conteúdo do arquivo ***filogenia1.fasta***, utilizado na parte anterior, para dentro do arquivo ***filogenia2.fasta***
   
-12. Repita o procedimento da prática 1 para obter a árvore filogenética para este novo arquivo ***filogenia2.fasta***
+13. Repita o procedimento da prática 1 para obter a árvore filogenética para este novo arquivo ***filogenia2.fasta***
   
-13. **Q11 - Essas proteínas foram classificadas em quais famílias**
+14. **Q12 - Essas proteínas foram classificadas em quais famílias**
   
-14. **Q12 - Verifique o valor de bootstrap para as duas sequências. É confiável? Explique**
+15. **Q13 - Verifique o valor de bootstrap para as duas sequências. É confiável? Explique**
   
-15. **Q13- Essas duas sequências vêm de um mesmo organismo.  
+16. **Q14- Essas duas sequências vêm de um mesmo organismo.  
    Por que ficaram tão distantes uma das outras?  
    Qual a explicação biológica para isso?**   
