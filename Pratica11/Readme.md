@@ -4,3 +4,4 @@ Ordem de prática
 - ML.ipynb
 - MNIST.ipynb
 - TFBinding.ipynb
+- siRNA.ipynb
