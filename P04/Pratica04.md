@@ -32,10 +32,9 @@ Nesta parte da prática, será utilizado o servidor [ProtParam](https://web.expa
       Todas as proteínas são passíveis de terem domínios bem estruturados?  
 
 ## Parte 3: Predição de regiões transmembranares
-1. Nesta parte da prática, o aluno deverá realizar o download do [arquivo ipynb](https://github.com/grsart/BiomolComp/blob/915a69ca5926d607d5d3a28624fefbf3a03c8876/Pratica4/Pratica4_TMbed_short.ipynb) referente à predição de regiões transmembranares
-2. Em um Google Colab, carregue o arquivo baixado
-3. Execute todas as células por meio do botão 'run all'
-4. **Q3**: Quantas destas proteínas são preditas de terem regiões transmembranares?  
+1. Nesta parte da prática, o aluno deverá acessar o [google colab](https://colab.research.google.com/github/grsart/BiomolComp/blob/main/P04/Pratica4_TMbed_short.ipynb) referente à predição de regiões transmembranares
+2. Execute todas as células por meio do botão 'run all'
+3. **Q3**: Quantas destas proteínas são preditas de terem regiões transmembranares?  
        Quantas proteínas são single pass e quantas são transmembranares? Justifique  
        Para essas proteínas, a predição de estrutura secundária obtida na **parte 2** está consistente com as regiões transmembranares?  
        Caso haja uma proteina de passagem única pela membrana, ela pode ter um domínio estruturado?  
