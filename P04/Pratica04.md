@@ -23,7 +23,7 @@ Nesta parte da prática, será utilizado o servidor [ProtParam](https://web.expa
    Qual é a hidropaticidade da proteína? O que isso sugere?  
 
 ## Parte 2: Cálculo de estrutura secundária
-1. Para essa parte, o aluno deverá realizar o download do arquivo [PredictSS_embed_ProtT5.ipynb](https://github.com/grsart/BiomolComp/blob/915a69ca5926d607d5d3a28624fefbf3a03c8876/Pratica4/PredictSS_embed_ProtT5.ipynb)
+1. Para essa parte, o aluno deverá realizar o download do arquivo [PredictSS_embed_ProtT5.ipynb](https://colab.research.google.com/github/grsart/BiomolComp/blob/main/P04/PredictSS_embed_ProtT5.ipynb)
 2. Em um Google Colab, carregue o arquivo baixado
 3. Execute todas as células clicando no botão 'run all'
 4. Ao final da página, deverá aparecer o resultado final para todas as 5 proteínas
