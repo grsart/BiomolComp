@@ -28,7 +28,7 @@ Nesta parte da prática, será utilizado o servidor [ProtParam](https://web.expa
 3. Execute todas as células clicando no botão 'run all'
 4. Ao final da página, deverá aparecer o resultado final para todas as 5 proteínas
 5. Salve os arquivos de output no seu computador para uma visualização integrada futura
-6. **Q2**: O que significam as letras H, L e E que aparecem no resultado final?  
+6. **Q2**: O que significam as letras H, L e E que aparecem no resultado final? No segundo arquivos, temos D e O. O que significam?  
       É possível antecipar alguma informação com relação a porções transmembranares e regiões desestruturadas?  
       Todas as proteínas são passíveis de terem domínios bem estruturados?  
 
