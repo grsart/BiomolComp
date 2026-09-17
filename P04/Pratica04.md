@@ -27,14 +27,16 @@ Nesta parte da prática, será utilizado o servidor [ProtParam](https://web.expa
 2. Em um Google Colab, carregue o arquivo baixado
 3. Execute todas as células clicando no botão 'run all'
 4. Ao final da página, deverá aparecer o resultado final para todas as 5 proteínas
-5. **Q2**: O que significam as letras H, L e E que aparecem no resultado final?  
+5. Salve os arquivos de output no seu computador para uma visualização integrada futura
+6. **Q2**: O que significam as letras H, L e E que aparecem no resultado final?  
       É possível antecipar alguma informação com relação a porções transmembranares e regiões desestruturadas?  
       Todas as proteínas são passíveis de terem domínios bem estruturados?  
 
 ## Parte 3: Predição de regiões transmembranares
 1. Nesta parte da prática, o aluno deverá acessar o [google colab](https://colab.research.google.com/github/grsart/BiomolComp/blob/main/P04/Pratica4_TMbed_short.ipynb) referente à predição de regiões transmembranares
 2. Execute todas as células por meio do botão 'run all'
-3. **Q3**: Quantas destas proteínas são preditas de terem regiões transmembranares?  
+3. Salve os arquivos de output no seu computador para uma visualização integrada futura
+4. **Q3**: Quantas destas proteínas são preditas de terem regiões transmembranares?  
        Quantas proteínas são single pass e quantas são transmembranares? Justifique  
        Para essas proteínas, a predição de estrutura secundária obtida na **parte 2** está consistente com as regiões transmembranares?  
        Caso haja uma proteina de passagem única pela membrana, ela pode ter um domínio estruturado?  
@@ -53,8 +55,14 @@ Nesta parte da prática, será utilizado o servidor [ProtParam](https://web.expa
 1. Entre no servidor [CD-search](https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi)
 2. Cole todo o conteúdo do arquivo [arquivo fasta](https://raw.githubusercontent.com/grsart/BiomolComp/refs/heads/main/Pratica4/proteins.fasta) no campo correspondente
 3. Execute a análise
-4. **Q5**. Para cada uma das proteínas, responda  
+4. Salve o arquivo hitdata.txt (Download data > Download)
+5. **Q5**. Para cada uma das proteínas, responda  
    Qual a função predita?  
    Espera que essa função esteja vinculada a uma proteína de membrana? Isso se confirma com as outras predições?  
    Para aquelas proteínas que tiveram regiões desestruturadas, como é a predição de domínios para elas? Existe alguma menção sobre regiões desestruturadas?  
    Existe alguma proteína com múltiplos domínios preditos?  
+
+
+## Parte 6: Visão unificada
+1. Entre no Colab de [visualização](https://colab.research.google.com/drive/1FFLDEtrinHKTGJYYLNUI7MYWFD9wPVrG)
+2. Execute a primeira célula e carregue os arquivos salvos nas partes anteriores
