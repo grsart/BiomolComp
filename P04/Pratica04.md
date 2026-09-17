@@ -64,7 +64,7 @@ Nesta parte da prática, será utilizado o servidor [ProtParam](https://web.expa
 
 
 ## Parte 6: Visão unificada
-1. Entre no Colab de [visualização](https://colab.research.google.com/drive/1FFLDEtrinHKTGJYYLNUI7MYWFD9wPVrG)
+1. Entre no Colab de [visualização](https://colab.research.google.com/github/grsart/BiomolComp/blob/main/P04/Pratica4_Visualizacao_Integrada.ipynb)
 2. Execute a primeira célula e carregue os arquivos salvos nas partes anteriores
 
 **Q6**: Para cada proteína, a classificação final foi unânime entre todas as ferramentas utilizadas, ou houve algum caso em que diferentes métodos apontaram para conclusões distintas? Se houve discordância, qual evidência você priorizou para decidir a classificação final, e por quê?
