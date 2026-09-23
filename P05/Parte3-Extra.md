@@ -43,7 +43,7 @@ LDNVATYAGQFNQDYLSGMAANMSGTFGGANMPNLYP
 
 ## 🧭 Roteiro
 
-1. Abra o [Google Colab do BioEmu](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/BioEmu.ipynb).
+1. Abra o [Google Colab do BioEmu](https://colab.research.google.com/github/grsart/BiomolComp/blob/main/P05/BioEmu.ipynb).
 2. Verifique se o ambiente de execução está usando **GPU** (*Ambiente de execução → Alterar o tipo de ambiente de execução*). O notebook já vem configurado para GPU T4, mas confira.
 3. Na primeira célula (*Sample with following config*), preencha:
 
