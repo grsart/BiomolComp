@@ -2,7 +2,6 @@
 ## Identificação de família para duas proteínas inéditas
 
 > **Objetivos desta parte:** recuperar proteínas no NCBI, identificar o domínio de transcriptase reversa com o CD-Search, extrair apenas a região do domínio e classificar as duas proteínas na árvore construída na Parte 1.  
-> **Tempo estimado:** 45 minutos.  
 > **O que entregar:** respostas das questões Q10 a Q15; o arquivo **filogenia2.fasta**; print da árvore enraizada com as duas novas sequências.
 
 1. Entre no site do [NCBI](https://www.ncbi.nlm.nih.gov/) (busca Entrez).
@@ -16,7 +15,7 @@
   
 5. **Q11- Qual banco de domínios a ferramenta usa e qual domínio de transcriptase reversa ela identificou (nome e código)?**
   
-6. Identifique o intervalo de resíduos de aminoácidos que representa o domínio de transcriptase reversa desta proteína (passe o mouse sobre o domínio para ver as posições inicial e final).
+6. Identifique o intervalo de resíduos de aminoácidos que representa o domínio de transcriptase reversa desta proteína.
   
 7. Volte na página da proteína. Restrinja a sequência para o intervalo encontrado no passo anterior.  
     Para isso, use a opção **Change region shown** no canto superior direito, e depois escolha **FASTA** em *Display*.
