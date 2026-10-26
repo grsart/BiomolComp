@@ -17,7 +17,7 @@ Caso não esteja, siga o roteiro de instalação do **Anexo A**, no final deste 
 > **Sem MEGA? Use o Plano B.** Se o MEGA não estiver instalado e não for possível instalá-lo (por exemplo, sem permissão de administrador ou sem a máquina virtual), faça as Partes 1 e 2 no Google Colab, com o notebook [AnaliseFilogenetica_PlanoB_Colab.ipynb](https://colab.research.google.com/github/grsart/BiomolComp/blob/main/Pratica6/AnaliseFilogenetica_PlanoB_Colab.ipynb). Ele tem as mesmas questões (Q1 a Q15) e só precisa de um navegador e de uma conta Google.
 
 ## 2- Análise de alinhamento
-1. Realize o download do arquivo [filogenia1.fasta](https://raw.githubusercontent.com/grsart/BiomolComp/main/Pratica6/filogenia1.fasta) e salve em uma pasta no seu disco (clique com o botão direito no link e escolha **Salvar link como...**). Confira se o arquivo salvo tem extensão `.fasta` e começa com a linha `>L1Mouse`.  
+1. Realize o download do arquivo [filogenia1.fasta](https://raw.githubusercontent.com/grsart/BiomolComp/refs/heads/main/P07/filogenia1.fasta) e salve em uma pasta no seu disco (clique com o botão direito no link e escolha **Salvar link como...**). Confira se o arquivo salvo tem extensão `.fasta` e começa com a linha `>L1Mouse`.  
       O arquivo contém as sequências do domínio de transcriptase reversa (RT) que usaremos na nossa análise.  
       A primeira etapa será gerar um alinhamento múltiplo destas sequências.
 
@@ -33,7 +33,7 @@ Caso não esteja, siga o roteiro de instalação do **Anexo A**, no final deste 
    Selecione a opção *OK* para a pergunta de selecionar todas as sequências
   
 7. Defina os valores de **Gap Opening Penalty** para 5.0 e os valores de **Gap Extension Penalty** para 0.1 (nos campos de alinhamento múltiplo). Clique em OK.  
-   *Por que esses valores?* Os valores padrão do ClustalW (10 e 0.2) penalizam muito a abertura de gaps. As famílias de retrotransposons divergiram há muito tempo e o domínio RT acumula inserções e deleções entre famílias. Penalidades menores permitem que o programa abra os gaps necessários para manter alinhados os motivos conservados.  
+   *Por que esses valores?*   
    *(Opcional)* Refaça o alinhamento com os valores padrão e compare a região dos motivos conservados.
   
 8. **Q2- Os motivos conservados da imagem abaixo estão presentes no alinhamento obtido?**  
@@ -74,11 +74,10 @@ Caso não esteja, siga o roteiro de instalação do **Anexo A**, no final deste 
 ## 4- Análise da árvore filogenética
   
 1. **Q4- A árvore está enraizada? Se sim, qual é a raiz?**  
-   *Lembre que o método Neighbor-Joining produz uma árvore sem raiz. O MEGA apenas desenha a árvore a partir de um ponto qualquer.*
   
-2. Salve um print desta árvore.
+2. Salve uma imagem desta árvore.
   
-3. **Q5- Antes de enraizar: olhando a árvore, onde você acha que a raiz deveria estar? Que informação você precisaria para decidir?**
+3. **Q5- Olhando a árvore, onde você acha que a raiz deveria estar? Que informação você precisaria para decidir?**
   
 4. Vamos definir um enraizamento a partir de uma informação conhecida.  
    Sabe-se que o transposon CRE2 representa a primeira família a se divergir das outras.  
@@ -86,7 +85,7 @@ Caso não esteja, siga o roteiro de instalação do **Anexo A**, no final deste 
   
 5. Para definir o enraizamento, selecione **Subtree** no menu do lado esquerdo da tela e clique em **Root**. Em seguida clique no ramo que leva ao CRE2.
   
-6. Salve um print da árvore enraizada.  
+6. Salve uma imagem da árvore enraizada.  
    **Q7- O que mudou ao fazer o enraizamento? A topologia (quem agrupa com quem) mudou? E a interpretação da árvore?**
   
 7. Compare a árvore obtida com a árvore de referência abaixo. Cada clado na figura representa uma família distinta (por exemplo L1, RTE, R2, R4, CR1, Jockey, I, R1, Tad1 e CRE).
